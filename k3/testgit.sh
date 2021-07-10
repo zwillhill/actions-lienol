@@ -34,17 +34,17 @@ svn co https://github.com/zwillhill/luci-theme-darkmatter/trunk/luci/themes/luci
 git clone https://github.com/garypang13/openwrt-bypass.git package/garypang13/openwrt-bypass
 
 # Add bypass depends from xiaorouji
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/xiaorouji/chinadns-ng
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/xiaorouji/trojan-go
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/xiaorouji/trojan-plus
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/xiaorouji/chinadns-ng
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/xiaorouji/trojan-go
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/xiaorouji/trojan-plus
 # Add bypass depends from fw876
-#svn co https://github.com/fw876/helloworld/trunk/naiveproxy package/fw876/naiveproxy
-#svn co https://github.com/fw876/helloworld/trunk/shadowsocksr-libev package/fw876/shadowsocksr-libev
-#svn co https://github.com/fw876/helloworld/trunk/tcping package/fw876/tcping
-#svn co https://github.com/fw876/helloworld/trunk/v2ray-core package/fw876/v2ray-core
-#svn co https://github.com/fw876/helloworld/trunk/v2ray-plugin package/fw876/v2ray-plugin
-#svn co https://github.com/fw876/helloworld/trunk/xray-core package/fw876/xray-core
-#svn co https://github.com/fw876/helloworld/trunk/xray-plugin package/fw876/xray-plugin
+svn co https://github.com/fw876/helloworld/trunk/naiveproxy package/fw876/naiveproxy
+svn co https://github.com/fw876/helloworld/trunk/shadowsocksr-libev package/fw876/shadowsocksr-libev
+svn co https://github.com/fw876/helloworld/trunk/tcping package/fw876/tcping
+svn co https://github.com/fw876/helloworld/trunk/v2ray-core package/fw876/v2ray-core
+svn co https://github.com/fw876/helloworld/trunk/v2ray-plugin package/fw876/v2ray-plugin
+svn co https://github.com/fw876/helloworld/trunk/xray-core package/fw876/xray-core
+svn co https://github.com/fw876/helloworld/trunk/xray-plugin package/fw876/xray-plugin
 
 # Add luci-apps
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/rufengsuixing/luci-app-adguardhome
@@ -55,7 +55,7 @@ git clone https://github.com/small-5/luci-app-adblock-plus package/small-5
 git clone https://github.com/fw876/helloworld package/fw876/helloworld
 git clone https://github.com/jerrykuku/luci-app-vssr package/jerrykuku/luci-app-vssr
 #rm -rf  package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-theme-argon package/jerrykuku/luci-theme-argon
+#git clone https://github.com/jerrykuku/luci-theme-argon package/jerrykuku/luci-theme-argon
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/jerrykuku/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config package/jerrykuku/luci-app-argon-config
 git clone https://github.com/tty228/luci-app-serverchan package/tty228/luci-app-serverchan
